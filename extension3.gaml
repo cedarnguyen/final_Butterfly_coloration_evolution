@@ -492,13 +492,13 @@ experiment butterfly_gui type: gui {
             }
         }
         // Display 5: Number of predation attempts and successes by butterfly color
-display "Predation Bias Analysis" {
-    chart "Butterflies Eaten by Color" type: series {
-        data "Black" value: black_hunts color: #black;
-        data "White" value: white_hunts color: #gray;
-        data "Gray" value: gray_hunts color: #silver;
-    }
-}
+//display "Predation Bias Analysis" {
+//    chart "Butterflies Eaten by Color" type: series {
+//        data "Black" value: black_hunts color: #black;
+//        data "White" value: white_hunts color: #gray;
+//        data "Gray" value: gray_hunts color: #silver;
+//    }
+//}
 
 
 		// Display 6: Proportions of each environmental patch color over time

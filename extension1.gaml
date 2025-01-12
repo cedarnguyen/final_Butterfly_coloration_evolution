@@ -453,13 +453,13 @@ experiment butterfly_gui type: gui {
             }
         }
         // Display 5: Predation successes by color
-display "Predation Bias Analysis" {
-    chart "Butterflies Eaten by Color" type: series {
-        data "Black" value: black_hunts color: #black;
-        data "White" value: white_hunts color: #gray;
-        data "Gray" value: gray_hunts color: #silver;
-    }
-}
+//display "Predation Bias Analysis" {
+   // chart "Butterflies Eaten by Color" type: series {
+     //   data "Black" value: black_hunts color: #black;
+      //  data "White" value: white_hunts color: #gray;
+    //    data "Gray" value: gray_hunts color: #silver;
+  //  }
+//}
 
     
     }
